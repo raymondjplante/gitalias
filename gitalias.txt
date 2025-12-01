@@ -157,6 +157,7 @@
   # checkout - update the working tree to match a branch or paths. [same as "o" for "out"]
   co = checkout
   cong = checkout --no-guess
+  com = checkout master   
 
   # create a new branch from the current working tree, and switch to it
   cob = checkout -b
@@ -1801,3 +1802,4 @@
   svn-m = merge --squash
   svn-c = svn dcommit
   svn-cp = !GIT_EDITOR='sed -i /^git-svn-id:/d' git cherry-pick --edit
+
