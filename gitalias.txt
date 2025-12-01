@@ -1184,6 +1184,7 @@
 
   # Do a push/pull for just one branch
   push1 = "!git push origin \"$(git current-branch)\""
+  pt = push1
   pull1 = "!git pull origin \"$(git current-branch)\""
 
   # Track and untrack, with default parameters, and with printing the command
